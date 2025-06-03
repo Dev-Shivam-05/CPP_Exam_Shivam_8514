@@ -26,12 +26,11 @@ class Class : public Student
 public:
     void getStudent()
     {
-        cout << "The Classroom Contains Students Are :- " << endl;
+        cout << endl << "The Classroom Contains Students Are :- " << endl << endl;
         for (int i = 0; i < 5; i++)
         {
-            cout << i << "th Student Name Is :- " << std_name[i] << endl;
+            cout << i + 1 << "th Student Name Is :- " << std_name[i] << endl;
         }
-        
     }
 
 };

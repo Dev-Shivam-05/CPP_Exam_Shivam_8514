@@ -28,11 +28,11 @@ public:
 
     void getProduct()
     {
-        cout << endl << "Products With There Prices :- " << endl;
+        cout << endl << "Products With There Prices Are :- " << endl;
         for (int i = 0; i < p_name.size(); i++)
         {
             cout << "Product :- " << p_name[i] << "    ";
-            cout << p_name[i] << "Price :- " << p_price[i] << endl;
+            cout << "Product Price :- " << p_price[i] << endl;
         }
     }
 };
@@ -52,10 +52,7 @@ int main()
         obj.setProduct();
     }
 
-    for (int i = 0; i < size; i++)
-    {
-        obj.getProduct();
-    }
+    obj.getProduct();
     
     return 0;
 }
